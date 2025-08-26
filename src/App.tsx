@@ -3,8 +3,9 @@ import { Canvas, useFrame } from "@react-three/fiber";
 import * as THREE from "three";
 import "./App.scss";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faCopy } from "@fortawesome/free-solid-svg-icons";
-import { faGithubSquare, faLinkedin } from "@fortawesome/free-brands-svg-icons";
+import { faCopy } from "@fortawesome/free-solid-svg-icons/faCopy";
+import { faGithubSquare } from "@fortawesome/free-brands-svg-icons/faGithubSquare";
+import { faLinkedin } from "@fortawesome/free-brands-svg-icons/faLinkedin";
 import toast, { Toaster } from "react-hot-toast";
 
 const ShaderPlane = () => {
