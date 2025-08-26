@@ -48,6 +48,7 @@ body {
   background-color: rgba(0, 0, 0, 0.4);
   z-index: 1000;
   padding-top: 200px;
+  overflow-y: auto;
 }
 
 .wrapper {
@@ -128,7 +129,8 @@ body {
 
 @media (max-width: 768px) {
   .overlay {
-    padding-top: 6rem;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
   }
 
   .wrapper {
